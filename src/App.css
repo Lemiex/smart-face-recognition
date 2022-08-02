@@ -2,9 +2,19 @@
   text-align: center;
 }
 
+.center {
+  display: flex;
+  justify-content: center
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.particles {
+  position: fixed;
+  z-index: -1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +42,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
